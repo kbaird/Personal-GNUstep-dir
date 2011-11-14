@@ -1,0 +1,6 @@
+#!/bin/sh
+xset m 20/10 4
+
+/usr/lib/gnome-settings-daemon/gnome-settings-daemon &
+nm-applet &
+gnome-power-manager &

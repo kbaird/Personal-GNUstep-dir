@@ -1,0 +1,88 @@
+{
+  HighlightColor = white;
+  AntialiasedText = YES;
+  MenuTextFont = "Trebuchet MS,Luxi Sans:pixelsize=12";
+  UTitleBack = (dgradient, black, dodgerblue4);
+  MoveResizeKey = None;
+  MouseMiddleButtonAction = OpenWindowListMenu;
+  VirtualEdgeLeftKey = None;
+  VirtualEdgeDownKey = None;
+  PTitleBack = (dgradient, mediumorchid4, dodgerblue3);
+  WindowShortcut10Key = None;
+  NoWindowOverIcons = YES;
+  MiniwindowTitleBalloons = NO;
+  WindowTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  NoWindowOverDock = YES;
+  MenuDisabledColor = gray60;
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  CloseKey = "Mod4+W";
+  MenuTextBack = (dgradient, black, dodgerblue4);
+  MenuStyle = normal;
+  MenuTitleBack = (dgradient, black, mediumorchid4);
+  DisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=12";
+  IconBack = (dgradient, "rgb:a6/a6/b6", "rgb:51/55/61");
+  FTitleBack = (dgradient, black, mediumorchid4);
+  WindowShortcut1Key = None;
+  MouseRightButtonAction = OpenApplicationsMenu;
+  WindowShortcut2Key = None;
+  ToggleKbdModeKey = None;
+  WindowShortcut3Key = None;
+  ResizebarBack = (dgradient, black, dodgerblue4);
+  WindowShortcut4Key = None;
+  MenuTextColor = white;
+  HighlightTextColor = black;
+  WindowShortcut5Key = None;
+  MaximizeKey = "Mod4+M";
+  MenuTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  MenuTitleColor = white;
+  WindowShortcut6Key = None;
+  RootMenuKey = "Mod4+F12";
+  WorkspaceNameDisplayPosition = center;
+  Superfluous = YES;
+  ModifierKey = Mod4;
+  LargeDisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=24";
+  WindowShortcut7Key = None;
+  FTitleColor = white;
+  AppIconBalloons = NO;
+  VirtualEdgeUpKey = None;
+  MouseLeftButtonAction = SelectWindows;
+  WorkspaceBack = (vgradient, "#654c66", "#151426");
+  WorkspaceBorderSize = 0;
+  IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
+  HideOthersKey = None;
+  SmoothWorkspaceBack = NO;
+  VirtualEdgeRightKey = None;
+  UTitleColor = white;
+  IconPath = (
+    "~/pixmaps",
+    "~/GNUstep/Library/Icons",
+    "/usr/local/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/local/share/icons",
+    "/usr/share/icons",
+    "/usr/X11R6/include/X11/pixmaps",
+    "/usr/share/icons/gnome/48x48/apps",
+    "/usr/share/pixmaps",
+    "/usr/share/icons/hicolor/48x48/apps"
+  );
+  PTitleColor = gray;
+  WorkspaceBorder = None;
+  Attraction = NO;
+  NewStyle = YES;
+  HelpBalloons = NO;
+  WindowPlaceOrigin = (64, 0);
+  CirculateRaise = NO;
+  CClipTitleColor = gray20;
+  TitleJustify = center;
+  WindowShortcut8Key = None;
+  ScreenSwitchKey = None;
+  ClipTitleColor = white;
+  WindowShortcut9Key = None;
+  DisableSound = YES;
+  WindowListKey = "Mod4+F11";
+  IconTitleBack = "#3d1b45";
+  IconTitleColor = white;
+  HMaximizeKey = None;
+  MouseWheelAction = None;
+  DisableBlinking = NO;
+}
