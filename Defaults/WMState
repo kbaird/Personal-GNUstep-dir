@@ -22,11 +22,10 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "xfce4-terminal %s";
-        Name = "x-terminal-emulator.XTerm";
+        Name = "xfce4-terminal.xfce4-terminal";
         Lock = Yes;
         AutoLaunch = Yes;
-        Command = "xfce4-terminal";
+        Command = xfce4-terminal;
         Position = "0,2";
         Forced = No;
         BuggyApplication = No;
@@ -157,10 +156,10 @@
           },
           {
             PasteCommand = "xfce4-terminal %s";
-            Name = "gnome-terminal.Gnome-terminal";
+            Name = "xfce4-terminal.xfce4-terminal";
             Lock = Yes;
             AutoLaunch = No;
-            Command = "xfce4-terminal";
+            Command = xfce4-terminal;
             Position = "0,4";
             Forced = No;
             BuggyApplication = No;
@@ -217,6 +216,16 @@
     }
   );
   Applications = (
+    {
+      Hidden = No;
+      ShortcutMask = 0;
+      Name = Terminal.GNUstep;
+      Geometry = "1369x799+0+0";
+      Workspace = "Workspace 2";
+      Shaded = No;
+      Miniaturized = No;
+      Command = xfce4-terminal;
+    },
     {
       Dock = "Workspace 2";
       Hidden = No;
