@@ -150,7 +150,7 @@
             Lock = Yes;
             AutoLaunch = No;
             Command = "/usr/bin/qjackctl.bin";
-            Position = "0,5";
+            Position = "0,3";
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
@@ -161,7 +161,7 @@
             Lock = Yes;
             AutoLaunch = No;
             Command = "xfce4-terminal";
-            Position = "0,6";
+            Position = "0,4";
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
