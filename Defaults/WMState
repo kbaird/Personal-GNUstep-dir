@@ -22,10 +22,10 @@
         BuggyApplication = No;
       },
       {
-        Name = "xfce4-terminal.xfce4-terminal";
+        Name = "x-terminal-emulator.XTerm";
         Lock = Yes;
         AutoLaunch = Yes;
-        Command = xfce4-terminal;
+        Command = "xfce4-terminal";
         Position = "0,2";
         Forced = No;
         BuggyApplication = No;
@@ -72,7 +72,6 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "xfce4-terminal %s";
         Name = "x-terminal-emulator.XTerm";
         Lock = Yes;
         AutoLaunch = Yes;
@@ -142,28 +141,6 @@
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
-          },
-          {
-            PasteCommand = "/usr/bin/qjackctl.bin %s";
-            Name = "qjackctl\\.bin.Qjackctl\\.bin";
-            Lock = Yes;
-            AutoLaunch = No;
-            Command = "/usr/bin/qjackctl.bin";
-            Position = "0,3";
-            Forced = No;
-            BuggyApplication = No;
-            Omnipresent = No;
-          },
-          {
-            PasteCommand = "xfce4-terminal %s";
-            Name = "xfce4-terminal.xfce4-terminal";
-            Lock = Yes;
-            AutoLaunch = No;
-            Command = xfce4-terminal;
-            Position = "0,4";
-            Forced = No;
-            BuggyApplication = No;
-            Omnipresent = No;
           }
         );
       };
@@ -190,7 +167,7 @@
           },
           {
             PasteCommand = "pidgin %s";
-            Name = Pidgin.Pidgin;
+            Name = pidgin.Pidgin;
             Lock = Yes;
             AutoLaunch = No;
             Command = pidgin;
@@ -213,29 +190,30 @@
         Applications = ();
       };
       Name = "Workspace 3";
+    },
+    {
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 4";
     }
   );
   Applications = (
     {
+      Dock = Main;
       Hidden = No;
       ShortcutMask = 0;
-      Name = Terminal.GNUstep;
-      Geometry = "1369x799+0+0";
-      Workspace = "Workspace 2";
+      Name = "google-chrome.Google-chrome";
+      Geometry = "1434x806+1440+0";
+      Workspace = Main;
       Shaded = No;
       Miniaturized = No;
-      Command = xfce4-terminal;
-    },
-    {
-      Dock = "Workspace 2";
-      Hidden = No;
-      ShortcutMask = 0;
-      Name = firefox.Firefox;
-      Geometry = "1376x803+1440+0";
-      Workspace = "Workspace 2";
-      Shaded = No;
-      Miniaturized = No;
-      Command = firefox;
+      Command = "google-chrome";
     }
   );
 }
