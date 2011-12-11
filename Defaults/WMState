@@ -12,20 +12,10 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "wmcalclock %s";
-        Name = wmcalclock.wmcalclock;
+        Name = "x-terminal-emulator.XTerm";
         Lock = Yes;
         AutoLaunch = Yes;
-        Command = wmcalclock;
-        Position = "0,1";
-        Forced = No;
-        BuggyApplication = No;
-      },
-      {
-        Name = "xfce4-terminal.xfce4-terminal";
-        Lock = Yes;
-        AutoLaunch = Yes;
-        Command = xfce4-terminal;
+        Command = "xfce4-terminal";
         Position = "0,2";
         Forced = No;
         BuggyApplication = No;
@@ -36,6 +26,16 @@
         AutoLaunch = No;
         Command = "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs";
         Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmcalclock %s";
+        Name = wmcalclock.wmcalclock;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmcalclock;
+        Position = "0,1";
         Forced = No;
         BuggyApplication = No;
       },
@@ -62,17 +62,6 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "wmcalclock %s";
-        Name = wmcalclock.wmcalclock;
-        Lock = Yes;
-        AutoLaunch = Yes;
-        Command = wmcalclock;
-        Position = "0,1";
-        Forced = No;
-        BuggyApplication = No;
-      },
-      {
-        PasteCommand = "xfce4-terminal %s";
         Name = "x-terminal-emulator.XTerm";
         Lock = Yes;
         AutoLaunch = Yes;
@@ -87,6 +76,16 @@
         AutoLaunch = No;
         Command = "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs";
         Position = "0,3";
+        Forced = No;
+        BuggyApplication = No;
+      },
+      {
+        PasteCommand = "wmcalclock %s";
+        Name = wmcalclock.wmcalclock;
+        Lock = Yes;
+        AutoLaunch = Yes;
+        Command = wmcalclock;
+        Position = "0,1";
         Forced = No;
         BuggyApplication = No;
       },
@@ -133,9 +132,20 @@
             Omnipresent = No;
           },
           {
+            PasteCommand = "rosegarden %s";
+            Name = rosegarden.Rosegarden;
+            Lock = Yes;
+            AutoLaunch = No;
+            Command = rosegarden;
+            Position = "0,4";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
             PasteCommand = "google-chrome %s";
             Name = "google-chrome.Google-chrome";
-            Lock = No;
+            Lock = Yes;
             AutoLaunch = No;
             Command = "google-chrome";
             Position = "0,1";
@@ -150,17 +160,6 @@
             AutoLaunch = No;
             Command = "/usr/bin/qjackctl.bin";
             Position = "0,3";
-            Forced = No;
-            BuggyApplication = No;
-            Omnipresent = No;
-          },
-          {
-            PasteCommand = "xfce4-terminal %s";
-            Name = "xfce4-terminal.xfce4-terminal";
-            Lock = Yes;
-            AutoLaunch = No;
-            Command = xfce4-terminal;
-            Position = "0,4";
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
@@ -210,32 +209,33 @@
         Lowered = Yes;
         Collapsed = No;
         AutoRaiseLower = No;
-        Applications = ();
+        Applications = (
+          {
+            PasteCommand = "skype %s";
+            Name = skype.Skype;
+            Lock = Yes;
+            AutoLaunch = No;
+            Command = skype;
+            Position = "0,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          }
+        );
       };
       Name = "Workspace 3";
-    }
-  );
-  Applications = (
-    {
-      Hidden = No;
-      ShortcutMask = 0;
-      Name = Terminal.GNUstep;
-      Geometry = "1369x799+0+0";
-      Workspace = "Workspace 2";
-      Shaded = No;
-      Miniaturized = No;
-      Command = xfce4-terminal;
     },
     {
-      Dock = "Workspace 2";
-      Hidden = No;
-      ShortcutMask = 0;
-      Name = firefox.Firefox;
-      Geometry = "1376x803+1440+0";
-      Workspace = "Workspace 2";
-      Shaded = No;
-      Miniaturized = No;
-      Command = firefox;
+      Clip = {
+        AutoAttractIcons = No;
+        AutoCollapse = No;
+        Lowered = Yes;
+        Collapsed = No;
+        AutoRaiseLower = No;
+        Applications = ();
+      };
+      Name = "Workspace 4";
     }
   );
+  Applications = ();
 }
